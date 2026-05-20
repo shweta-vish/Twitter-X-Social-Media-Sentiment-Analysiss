@@ -51,7 +51,6 @@ pip install tweepy pandas nltk matplotlib seaborn networkx textblob wordcloud
 python -m nltk.downloader stopwords
 python -m nltk.downloader punkt
 ```
-
 ---
 
 ## Additional Requirements
@@ -80,6 +79,32 @@ The API credentials are used only for collecting publicly available tweet data f
 4. Perform sentiment analysis using TextBlob
 5. Classify tweets into Positive, Negative, and Neutral categories
 6. Generate visualizations and network graphs for insights
+
+---
+
+## Results
+
+### Word Cloud Visualization
+The project generates a word cloud to highlight the most frequently used terms from collected tweets.
+
+<img width="665" height="420" alt="image" src="https://github.com/user-attachments/assets/caf117e8-a252-41a8-b32f-98cdf906f010" />
+
+### Sentiment Analysis Output
+The model classifies tweets into:
+- Positive
+- Negative
+- Neutral
+<img width="622" height="445" alt="image" src="https://github.com/user-attachments/assets/de7f7d79-18d8-49dd-a53a-f05d7601e21c" />
+
+### Network Graph Analysis
+Network graphs are generated to visualize user mentions and tweet interactions.
+<img width="762" height="502" alt="image" src="https://github.com/user-attachments/assets/0b50ec61-ff4b-4f4f-80ef-e4ffb6cddb38" />
+
+### Insights
+- Real-time tweets were successfully collected using Twitter (X) API
+- NLP preprocessing improved text quality for analysis
+- Sentiment trends helped identify public opinion patterns
+- Visualization techniques improved interpretability of social media data
 
 ---
 
