@@ -1,5 +1,3 @@
-# Twitter-X-Social-Media-Sentiment-Analysiss
-
 # Twitter (X) Social Media Sentiment Analysis
 
 ## Introduction
